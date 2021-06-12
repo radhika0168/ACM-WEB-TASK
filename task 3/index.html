@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            
+            position: absolute;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 0% 30%;
+            text-align: centre;
+            background-image: url('./111.jpg');
+            z-index : 1;
+        }
+
+        .f1 {
+            text-align: centre;
+            text-shadow: 5px 2px 4px gray;
+            color: darkblue;
+            font-size: 30px;
+        }
+
+        .login-page {
+
+            padding: 15px;
+            margin: auto;
+            background-color: rgba(105, 105, 105, 0.616);
+
+
+        }
+
+        .form {
+            text-align: centre;
+            padding: 10%;
+            font-weight: bold; position:relative;
+            z-index: 1;
+            background: black;
+            color: white;
+        }
+
+        .button {
+            text-align: centre;
+            font-size: 100%;
+            font-stretch: extra-expanded;
+            margin-left: 40%;
+            font-weight: bolder;
+            position: relative;
+            padding : 20px 60px;
+            letter-spacing : 3px;
+            background :yellowgreen;
+            color : var(--color);
+            border-radius : 10px;
+            border : 1px solid var(--color);
+            transition : 0.3s;
+        }
+        .button:hover {
+            background: var(--color);
+            color : #000;
+            box-shadow : 0 0 5px var(--color),
+                         0 0 25px var(--color);
+                         0 0 50px var(--color);
+        }
+    </style>
+     <script>
+         function submit(){
+             alert("Thank you for submiting !!!!");
+         }
+     </script>
+</head>
+
+<body>
+    <h1 class=f1>ENTER YOUR DETAILS</h1>
+    <div id="s1" class="login-page">
+        <div id="s1" class="form">
+            <forum>
+                <label> Username : </label> <br>
+                <input id="name" type="text" placeholder="name" required /> <br></br>
+                <label> Email ID : </label> <br>
+                <input id="email" type="email" placeholder="XYZ@gmail.com" autofocus /><br></br>
+                <label> contact no. : </label><br>
+                <input id="number" type="number" placeholder="980xxxx" autofocus /><br></br>
+                <label> Enter Your Age : </label><br>
+                <input id="age" type="text2" placeholder=" " required /><br></br>
+                <label> Occupation : </label><br>
+                <input id="work" type="Radio" value="Home Maker" name="occup" autofocus /> Home Maker </input><br>
+                <input id="work" type="Radio" value="Business person" name="occup" autofocus /> Business person </input>
+                <br>
+                <input id="work" type="Radio" value="emplyee" name="occup" autofocus /> Employee </input>
+                <br></br>
+                <label> Gender : </label><br>
+                <input id="gender" type="Radio" value="Female" name="gender" autofocus /> Female </input>
+                <input id="gender" type="Radio" value="Male" name="gender" autofocus /> Male </input>
+                <input id="gender" type="Radio" value="others" name="gender" autofocus /> Others </input> <br></br>
+                <label>Height : </label><br>
+                <input id="height" type="text3" value=" " placeholder="#4.5" required /><br></br>
+                <label>Weight : </label><br>
+                <input id="weight" type="text" value=" " placeholder="#4.5" required /><br></br>
+            </forum>
+        </div>
+        <a href="./diet1.html">
+            <button class=button> Submit </button>
+        </a>
+      
+    </div>
+</body>
+
+</html>
