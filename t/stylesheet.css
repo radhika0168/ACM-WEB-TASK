@@ -1,0 +1,57 @@
+#block1{
+
+  position : relative;
+}
+#block1::before{
+  content: "";
+  background-image: url('lotus.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.70;
+  height : 250mm;
+} 
+
+ #block2{
+   
+    background-color:black;
+    display : inline-block;
+    opacity: 0.80;
+    margin-top : -60px;
+    margin-left: 280px;
+    width : 300mm;
+    /* height : 170mm;    */
+    margin-bottom: 70mm;
+ }
+ 
+#booking_title{
+    font-size : 80px;
+  margin-left  : 450px;
+  color : rgb(231, 227, 227);
+  position : relative;
+
+}
+
+#info {
+margin-left: 60mm; 
+margin-top : 50px; 
+font-size: 40px;
+color: white;
+padding-top: 70px;
+
+}
+#fname,#lname,#adhar,#contact,#email{
+      height:30px;
+      width: 370px;
+      font-size: 25px;
+}
+#submit{
+    height : 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 640px;;
+    margin-top : 40px;
+}
